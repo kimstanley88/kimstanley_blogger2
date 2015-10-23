@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @autho.username %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @autho.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @autho.password %>
+</p>
+
+<p>
+  <strong>Password confirmation:</strong>
+  <%= @autho.password_confirmation %>
+</p>
+
+<%= link_to 'Edit', edit_autho_path(@autho) %> |
+<%= link_to 'Back', authos_path %>
